@@ -1,0 +1,40 @@
+# Build output
+bin/
+obj/
+out/
+*.exe
+*.dll
+*.pdb
+*.log
+*.cache
+
+# NuGet packages
+*.nupkg
+packages/
+!packages/repositories.config
+
+# User settings
+*.user
+*.suo
+*.vscode/
+.vs/
+
+# Secrets & Configuration
+appsettings.Development.json
+appsettings.Local.json
+secrets.json
+secrets/
+
+# Rider & JetBrains
+.idea/
+*.sln.iml
+
+# MacOS
+.DS_Store
+
+# Logs
+logs/
+*.log
+
+# Generated files
+Generated/
